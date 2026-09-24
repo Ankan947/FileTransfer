@@ -21,6 +21,8 @@ jobs:
 
       - name: Install Dependencies
         run: flutter pub get
+      - name: Fix Plugin API Version
+        run: echo "flutter.compileSdkVersion=36" >> android/local.properties  
 
       - name: Build APK
         run: flutter build apk --release
