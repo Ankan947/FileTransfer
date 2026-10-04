@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Build and Packaging
+build/
+dist/
+*.spec
+*.exe
+
+# Application specific
+uploads/
+*.tmp
+debug_paths.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Release Bundles
+GDR PROJECT/Release_Bundle/
+Release_Bundle/
+
+# Test large files
+*.bin
